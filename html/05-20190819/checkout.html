@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+    <style>
+        body {
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center" style="padding: 50px 0px">
+        <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="72px" height="72px">
+        <h3 class="mt-4">Checkout form</h3>
+        <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.
+        </p>
+    </div>
+    <div class="container d-flex">
+        <div class="col-8">
+            <div>
+                <h4>Billing address</h4>
+            </div>
+            <div class="row">
+                <div class="col-6 mb-3" style="padding: 0px 15px">
+                    <label>First name</label> <br>
+                    <input style="width: 100%; height: 35px; border-radius:5px" type="text">
+                </div>
+                <div class="col-6 mb-3" style="padding: 0px 15px">
+                    <label>Last name</label> <br>
+                    <input style="width: 100%; height: 35px; border-radius:5px" type="text">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label>Username</label>
+                <input type="email" style="width: 100%; height: 35px; border-radius:5px">
+            </div>
+            <div class="mb-3">
+                <label>Email <span class="text-muted">(Optional)</span></label>
+                <input class="pl-3" type="email" style="width: 100%; height: 35px; border-radius:5px" placeholder="you@example.com">
+            </div>
+            <div class="mb-3">
+                <label>Address</label>
+                <input type="text" class="pl-3" style="width: 100%; height: 35px; border-radius:5px" placeholder="1234 Main st">
+            </div>
+            <div class="mb-3">
+                <label>Address 2<span class="text-muted">(Optional)</span></label>
+                <input type="text" class="pl-3" style="width: 100%; height: 35px; border-radius:5px" placeholder="1234 Main st">
+            </div>
+            <div class="d-flex">
+                <div class="col-6 mb-3">
+                    <label>Country</label> <br>
+                    <select style="width: 100%; height: 35px; border-radius:5px">
+                    <option value>Choose..</option>
+                    <option>Us</option>
+                    <option>Vn</option>
+                </select>
+                </div>
+                <div class="col-3">
+                    <label>State</label>
+                    <select style="width: 100%; height: 35px; border-radius:5px">
+                    <option value> Choose...</option>
+                    <option>Cali</option>
+                    <option>HCM</option>
+                </select>
+                </div>
+                <div class="col-3">
+                    <label>Zip</label>
+                    <input type="text" style="width: 100%; height: 35px; border-radius:5px">
+                </div>
+            </div>
+            <hr>
+            <div>
+                <input type="checkbox">
+                <span class="pl-3">Shipping address is the same as my billing address
+            </span> <br>
+                <input type="checkbox">
+                <span class="pl-3">Save this information for next time</span>
+            </div>
+            <hr>
+            <div>
+                <h4>Payment</h4>
+                <form class="mb-3">
+                    <input type="radio" checked> Credit card <br>
+                    <input type="radio"> Debit card <br>
+                    <input type="radio"> PayPal
+                </form>
+                <div class="row">
+                    <div class="col-6 mb-3" style="padding: 0px 15px">
+                        <label>Name on card</label> <br>
+                        <input style="width: 100%; height: 35px; border-radius:5px" type="text">
+                        <p class="text-muted">Full name as displayed on card</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <label>Expiration</label> <br>
+                                <input style="width: 100%; height: 35px; border-radius:5px" type="text">
+                            </div>
+                            <div class="col-6">
+                                <label>CVV</label> <br>
+                                <input style="width: 100%; height: 35px; border-radius:5px" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-3" style="padding: 0px 15px">
+                        <label>Credit card number</label> <br>
+                        <input style="width: 100%; height: 35px; border-radius:5px" type="text">
+                    </div>
+
+                </div>
+                <hr>
+                <button class="bg-primary" style="width: 100%; height: 50px; border-radius:5px;font-size: 20px; color: white">Continue to checkout</button>
+
+            </div>
+        </div>
+        <div class="col-4">
+            <h3 class="text-muted">Your cart</h3>
+            <ul class="p-0 mb-3">
+                <li class="p-2 border border-dark d-flex justify-content-between" style=" width: 100%; height: 70px; border-top-left-radius: 5px; border-top-right-radius: 5px">
+                    <div class="">
+                        <h6>Product name</h6>
+                        <p class=" text-muted">Brief description</p>
+                    </div>
+                    <div>
+                        <span class=" text-muted">$12</span>
+                    </div>
+                </li>
+                <li class="p-2 border border-dark d-flex justify-content-between" style=" width: 100%; height: 70px;">
+                    <div>
+                        <h6>Second product</h6>
+                        <p class=" text-muted">Brief description</p>
+                    </div>
+                    <div>
+                        <span>$8</span>
+                    </div>
+                </li>
+                <li class="p-2 border border-dark d-flex justify-content-between" style=" width: 100%; height: 70px;">
+                    <div>
+                        <h6>Third item</h6>
+                        <p class=" text-muted">Brief description</p>
+                    </div>
+                    <div>
+                        <span>$5</span>
+                    </div>
+                </li>
+                <li class="p-2 border border-dark d-flex justify-content-between" style=" width: 100%; height: 70px;">
+                    <div class=" text-success">
+                        <h6>Promo code</h6>
+                        <p class=" text-muted">Brief description</p>
+                    </div>
+                    <div class=" text-success">
+                        <span>-$5</span>
+                    </div>
+                </li>
+                <li class="p-2 border border-dark d-flex justify-content-between" style=" width: 100%; height: 70px; border-bottom-left-radius: 5px; border-bottom-right-radius: 
+                        5px">
+                    <div>
+                        <h6>Total (USD)</h6>
+
+                    </div>
+                    <div>
+                        <b>$20</b>
+                    </div>
+                </li>
+            </ul>
+            <div class=" border border-dark p-3 d-flex">
+                <input class="pl-1" type="text" placeholder="Promo code" style="width: 80%; height:35px; border-top-left-radius: 5px; border-bottom-left-radius: 5px">
+                <button class=" bg-dark border border-dark text-light" style="border-top-right-radius: 5px; border-bottom-right-radius: 5px; height: 35px; ">Redeem</button>
+            </div>
+        </div>
+    </div>
+    <footer class=" d-flex justify-content-center align-items-center mt-5 mb-5 flex-column">
+        <p class=" text-muted m-0">© 2017-2019 Company Name</p>
+        <div>
+            <a class="p-1" href="#">Privacy</a>
+            <a class="p-1" href="#">Terms</a>
+            <a class="p-1" href="#">Support</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+    .d1 {
+        height: 200px;
+        width: 1000px;
+        background-color: darkslategray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .d2 {
+        background-color: darkgray;
+        width: 200px;
+        height: 300px;
+    }
+    
+    .d3 {
+        padding: 30px;
+    }
+    
+    .d4 {
+        background-color: beige;
+        width: 800px;
+        height: 300px;
+    }
+    
+    .d5 {
+        padding: 20px;
+    }
+    
+    .d6 {
+        width: 1000px;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

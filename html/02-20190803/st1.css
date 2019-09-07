@@ -1,0 +1,49 @@
+body {
+    border-width: 3px;
+    border-style: solid;
+    width: 600px;
+    height: 600px;
+}
+
+.d1 {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d2 {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    width: 120px;
+    height: 160px;
+}
+
+.d4 {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d5 {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dd {
+    width: 20px;
+    height: 20px;
+}

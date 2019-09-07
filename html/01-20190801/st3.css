@@ -1,0 +1,15 @@
+.d1 {
+    margin: 600px 400px 600px 400px;
+    border: 5px solid navy;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+}
+
+.d4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

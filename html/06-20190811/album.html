@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Album</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            height: 100vh;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+    <header>
+
+        <div class=" container-fluid bg-dark d-flex" class=" collapse" id="td">
+            <div class="row">
+                <div class="col-8">
+                    <h4 style="color: white">About</h4>
+                    <p class=" text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                </div>
+                <div class="col-4 d-flex flex-column justify-content-center" style="color: white">
+                    <h4>Contact</h4>
+                    <a style="color: white" href="#">Follow on Twitter</a>
+                    <a style="color: white" href="#">Like on facebook</a>
+                    <a style="color: white" href="#">Email me</a>
+                </div>
+            </div>
+        </div>
+        <div class=" container-fluid bg-dark" id="top">
+            <div class=" navbar navbar-dark d-flex justify-content-between" style="margin: 0px 115px">
+                <a style="color: white" href="#">
+                    <i class="fas fa-camera"></i>
+                    <strong>Album</strong>
+                </a>
+                <button type="button" class=" navbar-toggler" data-toggle=" collapse" data-target="#td">
+                    <span class=" navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class=" text-center">
+        <div style="padding: 50px 140px">
+            <h1>Album example</h1>
+            <p class=" text-muted" style="font-size: 20px">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+            <button class=" bg-primary" style="border-radius: 5px; height: 45px ; color: white">Main call to action</button>
+            <button class=" bg-dark" style="border-radius: 5px; height: 45px; color: white">Secondary action</button>
+        </div>
+        <input type="button" id="btn1" value="Hide album" />
+        <input type="button" id="btn2" value="Show album" />
+        <script>
+            document.getElementById("btn1").onclick = function() {
+                document.getElementById("content").style.display = 'none';
+            };
+
+            document.getElementById("btn2").onclick = function() {
+                document.getElementById("content").style.display = 'block';
+            };
+        </script>
+        <div class=" container-fluid bg-light" id="content">
+            <div class="row d-flex justify-content-between mt-3 mb-3">
+                <div class=" m-4 col-3 border border-dark w-100 h-100" style="border-radius: 5px">
+                    <img src="https://images.unsplash.com/photo-1558981285-501cd9af9426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" style="width: 100%" height="60%">
+                    <div>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between">
+                        <div class=" d-flex">
+                            <button class="border border-dark" style="border-radius:">View</button>
+                            <button class="border border-dark" style="border-radius:">Edit</button>
+                        </div>
+                        <div>
+                            <p>9 mins</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 m-4 border border-dark w-100 h-100" style="border-radius: 5px">
+                    <img src="https://images.unsplash.com/photo-1558981285-501cd9af9426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" style="width: 100%" height="60%">
+                    <div>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between">
+                        <div class=" d-flex">
+                            <button class="border border-dark" style="border-radius:">View</button>
+                            <button class="border border-dark" style="border-radius:">Edit</button>
+                        </div>
+                        <div>
+                            <p>9 mins</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 m-4 border border-dark w-100 h-100" style="border-radius: 5px">
+                    <img src="https://images.unsplash.com/photo-1558981285-501cd9af9426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" style="width: 100%" height="60%">
+                    <div>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between">
+                        <div class=" d-flex">
+                            <button class="border border-dark" style="border-radius:">View</button>
+                            <button class="border border-dark" style="border-radius:">Edit</button>
+                        </div>
+                        <div>
+                            <p>9 mins</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row d-flex justify-content-between mt-3 mb-3">
+                <div class=" m-4 col-3 border border-dark w-100 h-100" style="border-radius: 5px">
+                    <img src="https://images.unsplash.com/photo-1558981285-501cd9af9426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" style="width: 100%" height="60%">
+                    <div>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between">
+                        <div class=" d-flex">
+                            <button class="border border-dark" style="border-radius:">View</button>
+                            <button class="border border-dark" style="border-radius:">Edit</button>
+                        </div>
+                        <div>
+                            <p>9 mins</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 m-4 border border-dark w-100 h-100" style="border-radius: 5px">
+                    <img src="https://images.unsplash.com/photo-1558981285-501cd9af9426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" style="width: 100%" height="60%">
+                    <div>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between">
+                        <div class=" d-flex">
+                            <button class="border border-dark" style="border-radius:">View</button>
+                            <button class="border border-dark" style="border-radius:">Edit</button>
+                        </div>
+                        <div>
+                            <p>9 mins</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 m-4 border border-dark w-100 h-100" style="border-radius: 5px">
+                    <img src="https://images.unsplash.com/photo-1558981285-501cd9af9426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" style="width: 100%" height="60%">
+                    <div>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between">
+                        <div class=" d-flex">
+                            <button class="border border-dark" style="border-radius:">View</button>
+                            <button class="border border-dark" style="border-radius:">Edit</button>
+                        </div>
+                        <div>
+                            <p>9 mins</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row d-flex justify-content-between mt-3 mb-3">
+                <div class=" m-4 col-3 border border-dark w-100 h-100" style="border-radius: 5px">
+                    <img src="https://images.unsplash.com/photo-1558981285-501cd9af9426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" style="width: 100%" height="60%">
+                    <div>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between">
+                        <div class=" d-flex">
+                            <button class="border border-dark" style="border-radius:">View</button>
+                            <button class="border border-dark" style="border-radius:">Edit</button>
+                        </div>
+                        <div>
+                            <p>9 mins</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 m-4 border border-dark w-100 h-100" style="border-radius: 5px">
+                    <img src="https://images.unsplash.com/photo-1558981285-501cd9af9426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" style="width: 100%" height="60%">
+                    <div>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between">
+                        <div class=" d-flex">
+                            <button class="border border-dark" style="border-radius:">View</button>
+                            <button class="border border-dark" style="border-radius:">Edit</button>
+                        </div>
+                        <div>
+                            <p>9 mins</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 m-4 border border-dark w-100 h-100" style="border-radius: 5px">
+                    <img src="https://images.unsplash.com/photo-1558981285-501cd9af9426?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" style="width: 100%" height="60%">
+                    <div>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between">
+                        <div class=" d-flex">
+                            <button class="border border-dark" style="border-radius:">View</button>
+                            <button class="border border-dark" style="border-radius:">Edit</button>
+                        </div>
+                        <div>
+                            <p>9 mins</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <footer class=" container-fluid d-flex justify-content-between">
+        <div class=" pl-3">
+            <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+            <p>New to Bootstrap? <a href="#">Visit the homepage</a> or read our <a href="#"> getting started guide</a>.</p>
+        </div>
+        <div>
+            <a href="#top">Back to top</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
